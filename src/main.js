@@ -1,6 +1,6 @@
 ClickBattle.init("DUST"); // 자기 닉네임
 
-import './style.css';
+// import './style.css';
 
 let score = 0;
 const container = document.getElementById('game-container');
