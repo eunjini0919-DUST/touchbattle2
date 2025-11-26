@@ -1,4 +1,3 @@
-ClickBattle.init("DUST"); // 자기 닉네임
 
 // import './style.css';
 
@@ -78,7 +77,6 @@ function popBubble(element) {
     playPopSound();
 
     if (navigator.vibrate) navigator.vibrate(15);
-    ClickBattle.recordClick(); // 클릭 배틀에 클릭 기록 전송
 }
 
 // --- 4. 리필 및 초기화 ---
